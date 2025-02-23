@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot de Cobrança</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">Chatbot de Cobrança</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Como Funciona?</a></li>
+          <li><a href="#features">Funcionalidades</a></li>
+          <li><a href="#pricing">Pagamento</a></li> <!-- Alterado de "Planos" para "Pagamento" -->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Bem-vindo ao Chatbot de Cobrança</h2>
+        <p>Automatize a gestão de cobranças e garanta um atendimento eficiente com o nosso chatbot inteligente. 💬💸</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/chat.jpg" alt="Chatbot de Cobrança">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Como Funciona?</h2>
+      <p>Nosso chatbot utiliza inteligência artificial para enviar mensagens automáticas de cobrança, facilitar negociações e oferecer opções de pagamento de maneira rápida e eficaz.</p>
+      <p>Com integração fácil e suporte em tempo real, o chatbot otimiza todo o processo de cobrança, economizando tempo e recursos.</p>
+    </div>
+  </section>
+
+  <section id="features" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Funcionalidades</h2>
+      <p class="grid-description">Descubra as principais funcionalidades do nosso chatbot de cobrança.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Automação de Mensagens</h3>
+          <p>Envio de cobranças automáticas com personalização de mensagens para cada cliente.</p>
+        </article>
+        <article>
+          <h3>Negociação Inteligente</h3>
+          <p>O chatbot oferece opções de negociação e prazos flexíveis, de acordo com o perfil do cliente.</p>
+        </article>
+        <article>
+          <h3>Suporte 24/7</h3>
+          <p>Suporte contínuo para garantir que todos os problemas sejam resolvidos de forma eficiente.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pagamento Único</h2>
+      <p>Adquira nossa solução com um pagamento único de R$ 500,00 e aumente a eficiência do seu processo de cobrança.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Entre em Contato 
+          <!-- Botão do WhatsApp adicionado dentro do título -->
+          <a href="https://web.whatsapp.com/send?phone=5548991904757&text=Ol%C3%A1%20Rafael%2C%20eu%20vi%20que%20vc%20criou%20um%20chatbot%20para%20enviar%20mensagens%20de%20cobran%C3%A7a%20aos%20clientes%2C%20fiquei%20interessado%20nesta%20solu%C3%A7%C3%A3o%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank">
+            <button type="button" style="background-color: red; color: white; font-size: 20px; padding: 15px 30px; border: none; border-radius: 5px; font-weight: bold;">
+              Iniciar Conversa no WhatsApp
+            </button>
+          </a>
+        </h2>
+        <p>Tem alguma dúvida ou precisa de mais informações? Estamos prontos para te ajudar!</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/contact.jpg" alt="Contato">
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" >Feito com <span class="heart">❤</span> por Rafael Durgante</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
